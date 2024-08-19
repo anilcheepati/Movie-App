@@ -1,0 +1,75 @@
+
+.movie-list {
+    margin-top: 10px;
+    display: flex;
+    overflow-x: auto;
+    padding: 10px;
+    gap: 10px; /* Space between cards */
+    scroll-behavior: smooth; /* Smooth scrolling */
+    height: 500px; /* Fixed height to show only a certain number of cards */
+}
+
+/* Individual movie card styling */
+.movie-item {
+    flex: 0 0 auto; /* Prevent items from shrinking */
+    width: 400px; /* Adjust card width */
+    background: #fff; /* Background color for cards */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+    padding: 10px; /* Padding inside cards */
+    box-sizing: border-box; /* Include padding and border in width */
+    transition: transform 0.3s ease-in-out; /* Smooth hover effect */
+}
+
+/* Hover effect for movie cards */
+.movie-item:hover {
+    transform: scale(1.05); /* Slightly enlarge card on hover */
+}
+
+/* Poster image styling */
+.movie-poster {
+    width: 100%; /* Make image fit the card width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 4px; /* Rounded corners for image */
+}
+
+/* Title styling */
+h3 {
+    margin: 10px 0 5px; /* Space around title */
+    font-size: 1.1em; /* Slightly larger title font */
+}
+
+/* Release date styling */
+.release-date {
+    color: #888; /* Gray color for release date */
+    font-size: 0.9em; /* Smaller font size for date */
+}
+
+/* Paragraph styling */
+p {
+    margin: 5px 0; /* Space around paragraphs */
+    font-size: 0.9em; /* Slightly smaller font size */
+}
+
+/* Error message styling */
+.error-message {
+    color: red; /* Red color for error messages */
+    font-weight: bold; /* Bold font for emphasis */
+    text-align: center;
+    margin-top: 40px;
+    font-weight: 800;
+}
+
+/* Loading text styling */
+.loading {
+    font-size: 1.2em; /* Larger font for loading text */
+    text-align: center; /* Center align text */
+    margin: 20px 0; /* Space around loading text */
+}
+
+/* Style for movie overview */
+.movie-content .overview {
+    overflow-y: auto;
+    max-height: 100px; /* Adjust the height for the scrollable area */
+    padding: 5px;
+}

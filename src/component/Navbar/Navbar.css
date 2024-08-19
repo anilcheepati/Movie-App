@@ -1,0 +1,17 @@
+
+
+.navbar {
+    background-color: #f5ba13;
+    margin: auto -16px;
+    margin-top: 0%;
+    padding: 16px 32px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+  }
+  
+  .navbar h1 {
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 200;
+    text-align: center;
+  }
+  
